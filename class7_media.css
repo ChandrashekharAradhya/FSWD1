@@ -1,0 +1,36 @@
+.mobile{
+    display:block;
+    background-color: aquamarine;
+}
+.tablet{
+    display:none;
+}
+.laptop{
+    display:none;
+}
+
+@media (min-width:768px){
+    .mobile{
+        display:none;
+        /* background-color: aquamarine; */
+    }
+    .tablet{
+        display:block;
+        background-color: aquamarine;
+
+    }
+}
+@media (min-width:1024px){
+    .mobile{
+        display:none;
+        /* background-color: aquamarine; */
+    }
+    .tablet{
+        display:none;
+        background-color: aquamarine;
+
+    }
+    .laptop{
+        display:block;
+        background-color: aquamarine;
+}

@@ -1,0 +1,16 @@
+.firstbox{
+    border: coral 4px solid;
+    }
+    /* id selector type */
+    #internal-ul{
+       background-color: green;
+    }
+    /* element selector */
+    ol {
+        border: purple 2px dashed;
+       }
+       /* attribute selector type */
+       p[name="firstpara"]{
+           background-color: orange;
+       }
+       body{background-color: aqua;}
